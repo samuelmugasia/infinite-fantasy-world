@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>INFINITE FANTASY WORLD</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- 🔄 Loading Screen -->
+<div id="loader">
+  <div class="spinner"></div>
+</div>
+
+<!-- 🌙 Dark Mode Button -->
+<button id="darkModeToggle">🌙</button>
+
+<!-- 📌 Header -->
+<header>
+  <div class="logo">INFINITE FANTASY WORLD</div>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<!-- 🎥 Hero with Background Video -->
+<section id="home" class="hero">
+  <video autoplay muted loop>
+    <source src="https://www.w3schools.com/howto/rain.mp4" type="video/mp4">
+  </video>
+  <div class="hero-content">
+    <h1>Welcome to Infinite Fantasy World</h1>
+    <p>Turning ideas into powerful digital solutions</p>
+    <button>Get Started</button>
+  </div>
+</section>
+
+<!-- About -->
+<section id="about" class="section hidden">
+  <h2>About Us</h2>
+  <p>
+    Infinite Fantasy World is a forward-thinking company creating
+    innovative digital experiences for modern businesses.
+  </p>
+</section>
+
+<!-- Services -->
+<section id="services" class="section gray hidden">
+  <h2>Our Services</h2>
+  <div class="cards">
+    <div class="card">Web Development</div>
+    <div class="card">App Development</div>
+    <div class="card">Digital Consulting</div>
+  </div>
+</section>
+
+<!-- Contact -->
+<section id="contact" class="section hidden">
+  <h2>Contact Us</h2>
+  <p><strong>Phone:</strong> 0725 303 245</p>
+</section>
+
+<!-- 📞 WhatsApp Button -->
+<a href="https://wa.me/254725303245" class="whatsapp" target="_blank">💬</a>
+
+<footer>
+  © 2026 INFINITE FANTASY WORLD
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
